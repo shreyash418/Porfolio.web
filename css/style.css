@@ -70,7 +70,7 @@ section{
     align-items: center;
 }
 .home-img img{
-    width:25vw;
+    width:20vw;
     animation: floatImage 4s ease-in-out infinite;
     margin-left: 10rem;
     border-radius: 10px;
@@ -211,8 +211,7 @@ span{
     background: var(--second-bg-color);
 }
 .portfolio h2 {
-    margin-bottom: 4rem
-    ;
+    margin-bottom: 4rem;
 }
 .portfolio-container{
     display: grid;
@@ -402,14 +401,14 @@ color: var(--second-bg-color);
     font-size: 5rem;
 }
 .home-img img {
-    width: 70vw;
+    width: 45vw;
     margin-top:4rem;
 }
 .about  {
     flex-direction: column-reverse;
 }
 .about-img img {
-    width: 70vw;
+    width: 45vw;
     margin-top:4rem;
 }
 .services h2 {
@@ -439,7 +438,7 @@ color: var(--second-bg-color);
 @media(max-width:365px) 
 {
     .home-img img {
-        width: 90vw;
+        width: 45vw;
     }
     .about-img img {
         width:90vw ;
